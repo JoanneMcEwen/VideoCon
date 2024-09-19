@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 1.3em;
+}
+
+#logo{
+    flex-basis: 40%;
+    color: rgb(1, 1, 33);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.meetBtns{
+    display: flex;
+
+    /* flex-direction: row; */
+}
+.meetBtn{
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 10%;
+    /* flex-basis: 50% */
+}
+
+#meetings{
+    position: relative;
+    display: inline-block;
+    
+  }
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: #2c3e50;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px 10px;
+    z-index: 1;
+   
+
+  }
+#meetings:hover .dropdown {
+    display: block;
+
+
+}
+.meets:hover .dropdown{
+    background-color: #a4a9ae;
+}
+
+#videoSect{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    margin: 30px;
+    background-color: rgb(57, 50, 50);
+    width: 600px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.vidBtn{
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 20%;
+    height: 50px;
+}
+.vidBtn:hover{
+    background-color: #274b6b;
+}
+
+.Btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

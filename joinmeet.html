@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">      
+            <div class="items" id="logo">VidCon</div>
+            <a href="layout.html"><div class="items">Home</div></a>
+            <div class="items" id="meetings">
+                <span>Meetings</span> 
+                <div class="dropdown">
+                    <a href="newmeet.html"><p class="meets">New Meeting</p></a>
+                    <a href="joinmeet.html"><p class="meets">Join Meeting</p></a>
+                </div>
+            </div>
+            
+            <div class="items">Contact Us</div>         
+        </nav>
+    </header>
+
+    <section id="videoSect">
+        <section class="vid1">
+            <h4>Your video</h4>
+            <video src="" id="video" autoplay displaysinline></video>
+            <section class="Btns">
+                <button id="shareBtn" class="vidBtn">Accept</button>
+                <button id="showBtn" class="vidBtn">Show Video</button>
+                <button id="stopBtn" class="vidBtn">Stop Video</button>
+            </section>
+        </section>
+        <br>
+        <!-- <section class="vid1">
+            <h4>Their video</h4>
+            <video src="" id="video" autoplay displaysinline></video>
+            <button id="shareBtn" class="vidBtn">Share mic and camera</button>
+        </section> -->
+    </section>
+    <script src="script.js"></script>
+
+
+    <!-- {% block body %}{% endblock %} -->
+
+
+</body>
+</html>
